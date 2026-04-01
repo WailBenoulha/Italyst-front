@@ -3,9 +3,10 @@
 **Italyst** is a web platform designed to simplify access to Italian universities for international students. It centralizes essential information about universities, admission requirements, tuition fees, and deadlines—making the application process clearer, faster, and more accessible.
 
 ---
+<img width="942" height="463" alt="Italyst-w" src="https://github.com/user-attachments/assets/964b786f-6b94-48b5-9551-95e65945b156" />
 
-![Italyst-simple](https://github.com/user-attachments/assets/058bc78d-5f65-485d-9731-1afbe0894ca6)
-![Italyst-simple-logo](https://github.com/user-attachments/assets/19d58361-3e0d-422d-ac5a-76365864b229)
+<img width="1024" height="932" alt="Italyst-w-bg" src="https://github.com/user-attachments/assets/d8e5c2be-298f-4408-b770-a15e39ed7231" />
+
 
 
 ## 🚀 Features
