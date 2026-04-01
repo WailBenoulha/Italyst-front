@@ -23,7 +23,7 @@ const Landing = () => (
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Italyst-front">
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/univ/:univSlug" element={<><NavBar /><UniversityDetail /></>} />

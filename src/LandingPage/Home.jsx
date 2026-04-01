@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
+import myImage from "../assets/Italyst-w-bg.png"
 
 // ── Floating particle ─────────────────────────────────────────────────────────
 const Particle = ({ style }) => (
@@ -225,7 +226,7 @@ const Home = () => {
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#0F6A5B]/10 to-[#D4AF37]/5 blur-2xl scale-110" />
               {/* Image */}
               <img
-                src="./src/assets/Italyst-w-bg.png"
+                src={myImage}
                 alt="Italyst"
                 className="relative w-full max-w-[520px] h-auto object-contain transition-transform duration-700 group-hover:scale-[1.02]"
                 style={{ filter: 'drop-shadow(0 0 50px rgba(15,106,91,0.35)) drop-shadow(0 0 20px rgba(212,175,55,0.15))' }}

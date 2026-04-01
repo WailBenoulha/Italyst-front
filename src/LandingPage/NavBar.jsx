@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
+import myImage from "../assets/Italyst-w.png"
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false)
@@ -56,7 +57,7 @@ const NavBar = () => {
         {/* Logo */}
         <button onClick={() => navigate('/')} className="flex-shrink-0 focus:outline-none">
           <img
-            src="./src/assets/Italyst-w.png"
+            src={myImage}
             alt="Italyst"
             className="h-10 transition-all duration-300 hover:scale-105 hover:brightness-110"
           />
