@@ -1,12 +1,9 @@
 # 🇮🇹 Italyst
 
 **Italyst** is a web platform designed to simplify access to Italian universities for international students. It centralizes essential information about universities, admission requirements, tuition fees, and deadlines—making the application process clearer, faster, and more accessible.
-
+https://wailbenoulha.github.io/Italyst-front/
 ---
 <img width="942" height="463" alt="Italyst-w" src="https://github.com/user-attachments/assets/964b786f-6b94-48b5-9551-95e65945b156" />
-
-<img width="1024" height="932" alt="Italyst-w-bg" src="https://github.com/user-attachments/assets/d8e5c2be-298f-4408-b770-a15e39ed7231" />
-
 
 
 ## 🚀 Features
@@ -29,6 +26,8 @@
 * **Version Control:** Git & GitHub
 
 ---
+<img width="1024" height="932" alt="Italyst-w-bg" src="https://github.com/user-attachments/assets/d8e5c2be-298f-4408-b770-a15e39ed7231" />
+
 
 ## 🎯 هدف المشروع (Project Goal)
 
