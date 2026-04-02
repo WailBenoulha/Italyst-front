@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
-import myImage from "../assets/Italyst-w.png"
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false)
@@ -57,7 +56,7 @@ const NavBar = () => {
         {/* Logo */}
         <button onClick={() => navigate('/')} className="flex-shrink-0 focus:outline-none">
           <img
-            src={myImage}
+            src="./src/assets/Italyst-w.png"
             alt="Italyst"
             className="h-10 transition-all duration-300 hover:scale-105 hover:brightness-110"
           />
@@ -91,10 +90,14 @@ const NavBar = () => {
 
         {/* Actions */}
         <div className="hidden md:flex items-center gap-3">
-          <button className="relative overflow-hidden group text-[0.72rem] font-semibold tracking-widest uppercase px-5 py-2.5 rounded-md border border-white/15 text-white/60 transition-all duration-300 hover:border-[#D4AF37]/50 hover:text-[#D4AF37] hover:bg-[#D4AF37]/8">
+          <button
+            onClick={() => navigate('/signin')}
+            className="relative overflow-hidden group text-[0.72rem] font-semibold tracking-widest uppercase px-5 py-2.5 rounded-md border border-white/15 text-white/60 transition-all duration-300 hover:border-[#D4AF37]/50 hover:text-[#D4AF37] hover:bg-[#D4AF37]/8">
             Login
           </button>
-          <button className="relative overflow-hidden group bg-[#0F6A5B] text-white text-[0.72rem] font-semibold tracking-widest uppercase px-6 py-2.5 rounded-md transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_6px_24px_rgba(15,106,91,0.45)]">
+          <button
+            onClick={() => navigate('/register')}
+            className="relative overflow-hidden group bg-[#0F6A5B] text-white text-[0.72rem] font-semibold tracking-widest uppercase px-6 py-2.5 rounded-md transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_6px_24px_rgba(15,106,91,0.45)]">
             <span className="absolute inset-0 bg-gradient-to-r from-[#D4AF37] to-[#c9a227] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             <span className="relative z-10">Register</span>
           </button>
@@ -124,8 +127,8 @@ const NavBar = () => {
             </button>
           ))}
           <div className="flex gap-3 pt-3">
-            <button className="flex-1 text-[0.72rem] font-semibold tracking-widest uppercase py-2.5 rounded-md border border-white/15 text-white/60 hover:border-[#D4AF37]/50 hover:text-[#D4AF37] transition-all duration-200">Login</button>
-            <button className="flex-1 relative overflow-hidden group bg-[#0F6A5B] text-white text-[0.72rem] font-semibold tracking-widest uppercase py-2.5 rounded-md">
+            <button onClick={() => { setMobileOpen(false); navigate('/signin') }} className="flex-1 text-[0.72rem] font-semibold tracking-widest uppercase py-2.5 rounded-md border border-white/15 text-white/60 hover:border-[#D4AF37]/50 hover:text-[#D4AF37] transition-all duration-200">Login</button>
+            <button onClick={() => { setMobileOpen(false); navigate('/register') }} className="flex-1 relative overflow-hidden group bg-[#0F6A5B] text-white text-[0.72rem] font-semibold tracking-widest uppercase py-2.5 rounded-md">
               <span className="absolute inset-0 bg-gradient-to-r from-[#D4AF37] to-[#c9a227] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <span className="relative z-10">Register</span>
             </button>
